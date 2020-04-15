@@ -20,5 +20,5 @@ app.get("/", (request, response) => {
 });
 
 var listener = app.listen(port, function() {
-  console.log("Listening on  port " + listener.address().port);
+  console.log("Listening on port " + listener.address().port);
 });
